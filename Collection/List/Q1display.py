@@ -12,12 +12,12 @@ Explanation:
 
 n = int(input("Enter Size : "))
 
-arr = [0]*n
+list = [0]*n
 
 print("Enter Elements : ")
 for i in range(n):
-    arr[i] = int(input())
+    list[i] = int(input())
     
 for i in range(n):
-    print(arr[i],end=" ")
+    print(list[i],end=" ")
 
