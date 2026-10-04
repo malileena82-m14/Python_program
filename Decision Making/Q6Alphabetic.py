@@ -11,7 +11,8 @@ If character lies between A–Z or a–z.'''
 
 ch = (input("Enter Character : "))
 
-if (ch>='A' and ch<='Z') or (ch>='a' and ch<='z'):
+if (ch>='A' and ch<='Z') or (ch>='a' and ch<='z'): #Character Check
     print("Alphabet")
 else :
     print("not Alphabet")
+    
