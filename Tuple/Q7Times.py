@@ -1,14 +1,14 @@
 '''Q7 Count how many times a specific value appears in a tuple.'''
 
-'''a = (10,20,20,50,80,50)
+a = (10,20,20,50,80,50)
+count =0
+num = int(input("Enter Number : "))
 for i in a:
-    count =0
-    for j in a:
-        if a[i]==a[j]:
-            count = count+1
-print(count)'''
+    if a[i]==num:
+        count = count+1
+print(count)
 
-n = int(input("Enter Size"))
+'''n = int(input("Enter Size"))
 a = ()
 
 for i in range(n):
@@ -22,4 +22,4 @@ for i in range(n):
     if a[i]==num:
         count = count+1
         
-print(count)
+print(count)'''
