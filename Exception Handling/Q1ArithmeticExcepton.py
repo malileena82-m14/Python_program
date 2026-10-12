@@ -15,3 +15,4 @@ ArithmeticException is thrown when dividing by zero. Use try-catch block to catc
 In the catch block, display an error message explaining that division by zero is not allowed. 
 This prevents the program from crashing and allows graceful error handling.'''
 
+
